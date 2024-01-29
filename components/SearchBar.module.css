@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  gap: 18px;
+}
+
+.container > input {
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  background-color: rgb(230, 230, 230);
+  padding: 12px;
+}
+
+.container > button {
+  width: 76px;
+  border-radius: 12px;
+  border: none;
+  background-color: white;
+  padding: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
